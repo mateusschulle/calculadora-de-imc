@@ -27,12 +27,13 @@ body {
 
 input {
     display: block;
-    margin: 0.5em 0;
-    width: 50%;
-    height: 2em;
+    margin: 0.9em 0em;
+    width: 70%;
+    height: 3em;
     border-radius: 5px;
     border: none;
     border-bottom: solid 2px #008584;
+    padding-left: 1em;
 }
 
 .imc__calcular {
@@ -49,7 +50,7 @@ input {
 }
 
 table {
-    margin: 1em 20px;
+    margin: 0.5em 20px;
     border: 1px solid #008584;
 }
 
@@ -64,4 +65,9 @@ tr {
 
 td {
     padding: 0.5em;
+}
+
+.tabela {
+    display: flex;
+    justify-content: center;
 }
