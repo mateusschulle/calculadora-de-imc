@@ -69,5 +69,34 @@ td {
 
 .tabela {
     display: flex;
-    justify-content: center;
+    justify-content: left;
+}
+
+@media screen and (min-width: 1024px) {
+
+    body {
+        padding: 1.5em 4em;
+        display: grid;
+        grid-template-columns: 60% 40%;
+    }
+    
+    .container__titulo {
+        font-size: 30px;
+    }
+
+    input {
+        width: 50%;
+    }
+
+    table {
+        width: 80%;
+        height: 100px;
+        margin: 0 0;
+
+    }
+
+    .tabela {
+        justify-content: center;
+        padding: 20px 0;
+    }
 }
