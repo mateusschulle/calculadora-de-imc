@@ -2,7 +2,10 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #f5f5f5;
+    background: #FFEEEE;  
+    background: -webkit-linear-gradient(to right, #DDEFBB, #FFEEEE);
+    background: linear-gradient(to right, #DDEFBB, #FFEEEE); 
+
 }
 
 .container__titulo {
@@ -20,7 +23,6 @@ body {
 
 .container__imc {
     margin: 1em 20px;
-    background-color: #cccccc;
     border-radius: 8px;
     padding: 1.5em 1em;
 }
